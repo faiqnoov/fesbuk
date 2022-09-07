@@ -23,6 +23,10 @@ body {
   padding-right: 50px;
 }
 
+.logo-section .wrapper {
+  margin-top: -150px;
+}
+
 .logo-section img {
   height: 106px;
   margin-left: -28px;
@@ -129,12 +133,17 @@ a {
     padding-right: 0;
   }
 
-  .logo-section p {
-    text-align: center;
+  .logo-section .wrapper {
+    margin: 0;
   }
 
   .logo-section img {
-    margin-left: 0;
+    display: block;
+    margin: auto;
+  }
+
+  .logo-section p {
+    text-align: center;
   }
 
   .form-section {
